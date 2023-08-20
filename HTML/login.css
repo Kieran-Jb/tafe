@@ -1,0 +1,107 @@
+
+
+.container{
+   
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+   align-items: normal;
+    padding:25px;
+    transform: translate(50% 50%);
+    
+    
+  }
+  
+  .container form{
+    padding:20px;
+    width:1100px;
+    background: #fff;
+    
+  }
+  
+  .container form .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+  }
+  
+  .container form .row .col{
+    flex:1 1 200px;
+   
+  }
+  
+
+  
+  .container form .row .col .input{
+    margin:15px 0;
+  
+  }
+  
+  
+  .container form .row .col .input div {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 5px;
+    
+  }
+  
+  .container form .row .col .input input{
+    width: 90%;
+    border:1px solid #000000;
+    padding:10px 15px;
+    font-size: 15px;
+    border-radius: 3px;
+  }
+  .container form .row .col .input input:hover{
+    outline: 1px solid black;
+    
+  }
+  .container form .row .col .input input:focus{
+    outline: 1px solid rgb(0, 0, 0);
+  }
+
+  .container form .row .col .flex{
+    display: flex;
+   
+  }
+  .container form .row .col .flex input{
+    width: 30%;
+  }
+  .container form .row .col  .input .select {
+    border: 1px solid #000000;
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 10px 15px;
+    
+  }
+  .container form .row .col .flex .input .select:focus {
+    border: 1px solid rgb(0, 0, 0);
+    
+   
+  }
+  .container form .row .col .flex .input .select:hover {
+    outline: 1px solid rgb(0, 0, 0);
+  }
+
+  .container form .row .col .flex .input .select option{
+    padding: 10px;
+   
+  }
+
+  .container form .row .col .flex .input{
+    margin-top: 5px;
+  }
+
+.submit{
+    margin-left: 20vw;
+    background-color: blue;
+    color: #fff;
+    width: 150px;  
+    height: 50px;  
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+ 
+  
+  
+ 
